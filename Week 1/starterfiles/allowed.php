@@ -20,7 +20,7 @@ function only_this_get_params($this_get_params = []) {
 }
 
 
-$get_params = only_this_get_params(['gebruikersnaam', 'wachtwoord']);
+$get_params = allowed_from_get(['gebruikersnaam', 'wachtwoord']);
 var_dump($get_params);
 echo "<br />";
 
@@ -49,7 +49,7 @@ function check_params_on_empty($check_params = []) {
 
 }
 
-check_params_on_empty( $get_params );
+check_emptiness( $get_params );
 
 
 
