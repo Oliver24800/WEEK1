@@ -10,7 +10,7 @@ include "validationlib.php";
 include "expected.php";
 
 
-$get_params = allowed_from_get($expected_address);
+$get_params = allowed_from_get($expected_login);
 var_dump($get_params);
 echo "<br /><br />";
 
