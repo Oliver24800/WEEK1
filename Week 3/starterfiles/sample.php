@@ -7,7 +7,7 @@
  */
 
 // SELECT
-//1. Connectie
+//1. Connectie: Demonstration code only
 $dbc = new PDO('mysql:host=localhost;dbname=Security', 'root', 'root');
 
 //2. Statement (Named placeholders)
